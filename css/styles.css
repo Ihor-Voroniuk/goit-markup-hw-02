@@ -238,3 +238,23 @@ li {
 .address-footer:focus, .address-footer:hover{
     color: var(--color-link);
 }
+
+.portfolio-menu h2 {
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 1.2;
+    letter-spacing: 0.03em;
+    color: var(--color-h-text);
+}
+
+.portfolio-menu p{
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 19px;
+    letter-spacing: 0.03em;
+    color:var(--color-p-text)
+}
