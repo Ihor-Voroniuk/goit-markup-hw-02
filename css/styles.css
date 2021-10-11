@@ -63,6 +63,18 @@ li {
     color:var(--color-h-text);
     
 }
+
+.nav-link-f{
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1.2;
+    letter-spacing: 0.02em;
+    font-style: normal;
+    color:var(--color-link)
+}
+
 .nav-link:focus, .nav-link:hover{
    color: var(--color-link);
 }
@@ -94,12 +106,15 @@ li {
     font-size: 44px;
     line-height: 1.5;
     color: #FFFFFF;
+    text-align: center;
 }
   /* button section-1 */
 .button-service{
     cursor: pointer;
     background-color: var(--color-link);
     color: var(--color-bg);
+    text-align: center;
+    
 }
 
 .button-service:focus, .button-service:hover{
@@ -114,6 +129,11 @@ li {
     color:var(--color-h-text);
 }
 
+.portf-btn-f{ 
+    cursor: pointer;
+    color:var(--color-bg);
+    background-color: var(--color-link);
+}
 .portf-btn:focus, .portf-btn:hover{
     color:var(--color-bg);
   background-color: var(--color-link);
@@ -171,7 +191,8 @@ li {
     font-size: 16px;
     line-height: 19px;
     letter-spacing: 0.03em;
-    color:var(--color-p-text)
+    color:var(--color-p-text);
+    text-align: center;
 }
 .team-list h3{ 
     font-family: Roboto;
@@ -180,7 +201,8 @@ li {
     font-size: 16px;
     line-height: 1.2;
     letter-spacing: 0.03em;
-    color:var(--color-h-text)
+    color:var(--color-h-text);
+    text-align: center;
 }
      /* Footer BG */
 .footer-bg{
@@ -236,10 +258,10 @@ li {
 }
 
 .address-footer:focus, .address-footer:hover{
-    color: var(--color-link);
+    color:var(--color-bg)
 }
 
-.portfolio-menu h2 {
+.portfolio-menu h3 {
     font-family: Roboto;
     font-style: normal;
     font-weight: bold;
@@ -257,4 +279,9 @@ li {
     line-height: 19px;
     letter-spacing: 0.03em;
     color:var(--color-p-text)
+}
+
+.hidden-menu{
+    display: none;
+    
 }
