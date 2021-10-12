@@ -5,7 +5,7 @@
     --color-sect-bg: #2F303A;
     --color-bg: #FFFFFF;
     --font-size-logo: 26px;
-    --font-family: Roboto;
+    --font-family: Roboto sans-serif;
 
 }
 .body-home{
@@ -127,12 +127,22 @@ li {
     cursor: pointer;
     background-color:#F5F4FA;
     color:var(--color-h-text);
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 26px;
 }
 
 .portf-btn-f{ 
     cursor: pointer;
     color:var(--color-bg);
     background-color: var(--color-link);
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 26px;
 }
 .portf-btn:focus, .portf-btn:hover{
     color:var(--color-bg);
