@@ -8,6 +8,10 @@
     --font-family: "Roboto", sans-serif;
     
 }
+
+a{
+    text-decoration: none;
+}
 .body-home{
     color: #FFFFFF;
     font-family: 'Roboto', sans-serif, 'Raleway', sans-serif;
@@ -97,6 +101,7 @@ li {
    /* section-1 */
 .sec-bg{
     background-color: var(--color-sect-bg);
+    text-align: center;
 }
   /* h1 section-1 */
 .effect-design{
@@ -110,16 +115,11 @@ li {
 }
   /* button section-1 */
 .button-service{
-    font-family: "Roboto", sans-serif;
-    font-style: normal;
-    font-weight: bold;
-    font-size: 16px;
-    line-height: 30px;
-    cursor: pointer;
+    
     background-color: var(--color-link);
     color: var(--color-bg);
     text-align: center;
-    align-items: center;
+    
 }
 
 .button-service:focus, .button-service:hover{
