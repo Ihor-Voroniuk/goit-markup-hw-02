@@ -29,7 +29,7 @@ li {
 }
 
 .portfolio-bg{
-    background-color: #E5E5E5;
+    background-color: #FFFFFF;
 }
     /*Logo nav*/
 .web-logo{
@@ -114,7 +114,7 @@ li {
     background-color: var(--color-link);
     color: var(--color-bg);
     text-align: center;
-    
+    align-items: center;
 }
 
 .button-service:focus, .button-service:hover{
