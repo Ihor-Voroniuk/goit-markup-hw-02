@@ -19,9 +19,23 @@
     font-family: 'Roboto', sans-serif, 'Raleway', sans-serif;
 }
 /* for all LI*/
-li {
-    list-style-type: none; 
-   }
+ul {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;   
+} 
+
+.web-logo{
+    margin-right: -4px;
+    display: inline-block;
+}
+
+.web-footer{
+    margin-right: -4px;
+    display: inline-block;
+}
 
    /*Headr BG*/
 .header-bg{
@@ -91,12 +105,13 @@ li {
     
 }
 .address-link:focus, .address-link:hover{
-    color: var(--color-link);
+    color:var(--color-link);
 }
 
    /* section-1 */
 .sec-bg{
     background-color: var(--color-sect-bg);
+    text-align: center;
 }
   /* h1 section-1 */
 .effect-design{
@@ -116,7 +131,7 @@ li {
     font-size: 16px;
     line-height: 30px;
     cursor: pointer;
-    background-color: var(--color-link);
+    background-color:#188ce8;
     color: var(--color-bg);
     text-align: center;
     align-items: center;
@@ -245,7 +260,8 @@ li {
 }
      /* Footer address */
 .address-footer{
-    color:var(--color-p-text);
+    color:#FFFFFF60;
+    ;
     text-decoration: none;
     font-family: "Roboto", sans-serif;
     font-style: normal;
@@ -255,6 +271,10 @@ li {
     letter-spacing: 0.02em;
 
 }
+
+.address-footer:focus, .address-footer:hover{
+    color:rgba(255, 255, 255, 0.6)
+    }
 
 .address-map{
     font-family: "Roboto", sans-serif;
@@ -272,9 +292,7 @@ li {
     color: var(--color-link);
 }
 
-.address-footer:focus, .address-footer:hover{
-    color:var(--color-bg)
-}
+
 
 .portfolio-menu h3 {
     font-family: "Roboto", sans-serif;
